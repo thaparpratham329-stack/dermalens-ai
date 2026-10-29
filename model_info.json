@@ -1,0 +1,18 @@
+{
+    "project": "DermaLens AI",
+    "architecture": "MobileNetV2",
+    "input_size": [
+        224,
+        224
+    ],
+    "classes": [
+        "Acne_Mild",
+        "Acne_Moderate",
+        "Acne_Severe"
+    ],
+    "selected_checkpoint": "Phase 2",
+    "validation_accuracy": 0.7443,
+    "validation_macro_f1": 0.7456,
+    "intended_use": "Educational research prototype",
+    "clinical_validation": false
+}
